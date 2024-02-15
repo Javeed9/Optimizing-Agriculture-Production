@@ -1,23 +1,24 @@
 import pandas as pd
 import numpy as np
-import os
+# import os
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix, classification_report
 from sklearn.preprocessing import StandardScaler
 
 
-def predict():
-    data_path = "D:\\Projects\\ML\\Optimizing Agriculture Production\\server\\app\\Files\\data.csv"
+def predict(data):
+    # data_path = "D:\\Projects\\ML\\Optimizing Agriculture Production\\server\\app\\Files\\data.csv"
     # data_path = os.path.join("files", "data.csv")
+
     # **Data Cleaning and Preprocessing**
 
     # Read the data and handle missing values using an appropriate strategy:
-    try:
-        data = pd.read_csv(data_path)
-    except FileNotFoundError:
-        print(f"File not found at: {data_path}")
-        raise
+    # try:
+        # data = pd.read_csv(data_path)
+    # except FileNotFoundError:
+    #     print(f"File not found at: {data_path}")
+    #     raise
 
     try:
         # Fill missing values based on your understanding of the data:
