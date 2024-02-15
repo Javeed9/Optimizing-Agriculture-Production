@@ -9,35 +9,34 @@ This guide will help you set up the environment, install the required dependenci
 ### choose one for step 2
 **1_1 Virtual Environment (Optional but Recommended)**: It's recommended to use a virtual environment to isolate your project dependencies. Install `virtualenv` if you haven't already:
 
-```bash
-pip install virtualenv
-```
+    ```bash
+    pip install virtualenv
+    ```
 
 **1_2 Create Virtual Environment**: Use Python's built-in `venv` module to create a new virtual environment for your Flask project:
 
-```bash
-python -m venv venv
-```
-
+    ```bash
+    python -m venv venv
+    ```
 **2_1 Create Virtual Environment**: Create a new virtual environment for your Flask project:
 
-```bash
-virtualenv venv
-```
+    ```bash
+    virtualenv venv
+    ```
 
 **Activate Virtual Environment**: Activate the virtual environment:
 
-- **Windows**:
+    - **Windows**:
 
-```bash
-venv\Scripts\activate
-```
+        ```bash
+        venv\Scripts\activate
+        ```
 
-- **Unix or MacOS**:
+    - **Unix or MacOS**:
 
-```bash
-source venv/bin/activate
-```
+        ```bash
+        source venv/bin/activate
+        ```
 
 ## Install Requirements
 
